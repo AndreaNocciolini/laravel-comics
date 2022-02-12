@@ -5,8 +5,8 @@
 
     <ul class="header-ul">
         <li class="header-li"><a class="header-a" href="">CHARACTERS</a></li>
-        <li class="header-li"><a class="active header-a" href="">COMICS</a></li>
-        <li class="header-li"><a class="header-a" href="">MOVIES</a></li>
+        <li class="header-li"><a class="active header-a" href=" {{ route('home') }}">COMICS</a></li>
+        <li class="header-li"><a class="header-a" href="{{ route('movies') }}">MOVIES</a></li>
         <li class="header-li"><a class="header-a" href="">TV</a></li>
         <li class="header-li"><a class="header-a" href="">GAMES</a></li>
         <li class="header-li"><a class="header-a" href="">COLLECTIBLES</a></li>

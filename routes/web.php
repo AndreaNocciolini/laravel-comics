@@ -20,4 +20,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $data = ['comics' => config('comics'), 'pageName' => 'DC Comics - Home'];
     return view('guest.home', $data);
-});
+})->name('home');
+
+Route::get('/movies', function () {
+    $data = ['comics' => config('comics'), 'pageName' => 'DC Comics - Movies'];
+    return view('guest.movies', $data);
+})->name('movies');

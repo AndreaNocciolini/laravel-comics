@@ -47,7 +47,7 @@
             justify-content: space-around;
             background-color: #303030;
             padding: 1em;
-            button {
+            .footer-button {
                 background: #303030;
                 border-color: #0282F9;
                 border-style: solid;
@@ -66,11 +66,11 @@
             .footer-social{
                 display: flex;
             }
-            ul{
+            .footer-ul{
                 list-style-type: none;
                 display: flex;
                 gap: 0.5em;
-                li a{
+                .footer-li .footer-a{
                     text-decoration: none;
                 }
             }

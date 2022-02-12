@@ -5,11 +5,11 @@
     align-items: center;
     justify-content: space-between;
 }
-ul {
+.header-ul {
     display: flex;
     font-size: 0.6em;
     list-style-type: none;
-    li a{
+    .header-li .header-a{
         display: block;
         padding: 2em 1em;
         text-decoration: none;

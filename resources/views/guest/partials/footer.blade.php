@@ -62,11 +62,11 @@
         <div class="footer-social">
             <h3>FOLLOW US</h3>
             <ul class="footer-ul">
-                <li class="footer-li"><a class="footer-a" href=""><img src="../assets/img/footer-facebook.png" alt=""></a></li>
-                <li class="footer-li"><a class="footer-a" href=""><img src="../assets/img/footer-periscope.png" alt=""></a></li>
-                <li class="footer-li"><a class="footer-a" href=""><img src="../assets/img/footer-pinterest.png" alt=""></a></li>
-                <li class="footer-li"><a class="footer-a" href=""><img src="../assets/img/footer-twitter.png" alt=""></a></li>
-                <li class="footer-li"><a class="footer-a" href=""><img src="../assets/img/footer-youtube.png" alt=""></a></li>
+                <li class="footer-li"><a class="footer-a" href=""><img src="{{ asset('../images/footer-facebook.png')}}" alt=""></a></li>
+                <li class="footer-li"><a class="footer-a" href=""><img src="{{ asset('../images/footer-periscope.png') }}" alt=""></a></li>
+                <li class="footer-li"><a class="footer-a" href=""><img src="{{ asset('../images/footer-pinterest.png') }}" alt=""></a></li>
+                <li class="footer-li"><a class="footer-a" href=""><img src="{{ asset('../images/footer-twitter.png') }}" alt=""></a></li>
+                <li class="footer-li"><a class="footer-a" href=""><img src="{{ asset('../images/ffooter-youtube.png') }}" alt=""></a></li>
             </ul>
         </div>
       </div>

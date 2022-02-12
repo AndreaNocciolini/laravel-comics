@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('guest.layout.base');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    $data = ['comics' => config('comics'), 'pageName' => 'DC Comics - Home'];
+    return view('guest.home', $data);
 });

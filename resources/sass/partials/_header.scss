@@ -1,0 +1,24 @@
+.header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    font-size: 0.6em;
+    list-style-type: none;
+    li a{
+        display: block;
+        padding: 2em 1em;
+        text-decoration: none;
+        color: black;
+        &:hover,
+        &:active,
+        &.active {
+            color: #005ebd;
+            border-bottom: 3px solid #005ebd;
+        }
+    }
+}

@@ -1,0 +1,125 @@
+.header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  font-size: 0.6em;
+  list-style-type: none;
+}
+
+ul li a {
+  display: block;
+  padding: 2em 1em;
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover,
+ul li a:active,
+ul li a.active {
+  color: #005ebd;
+  border-bottom: 3px solid #005ebd;
+}
+
+.container-footer {
+  width: 100%;
+  margin: 0;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+}
+
+.container-footer .support-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container-footer .supp-cont-dx {
+  justify-content: space-between;
+}
+
+.container-footer .inner-container-sx {
+  display: flex;
+}
+
+.container-footer .inner-container-sx .links-container {
+  width: 100%;
+  display: flex;
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position-x: 85%;
+  background-position-y: 50%;
+}
+
+.container-footer ul {
+  margin: 0;
+  padding: 1em;
+  list-style-type: none;
+}
+
+.container-footer ul h3 {
+  margin: 0;
+}
+
+.container-footer ul a {
+  text-decoration: none;
+  color: grey;
+}
+
+.container-footer .inner-container-dx {
+  width: 50%;
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: center;
+}
+
+.container-footer .footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #303030;
+  padding: 1em;
+}
+
+.container-footer .footer-menu button {
+  background: #303030;
+  border-color: #0282F9;
+  border-style: solid;
+  border-width: 2px;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  width: 150px;
+}
+
+.container-footer .footer-menu .footer-social {
+  display: flex;
+}
+
+.container-footer .footer-menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 0.5em;
+}
+
+.container-footer .footer-menu ul li a {
+  text-decoration: none;
+}
+
+.container-footer .footer-menu h3 {
+  display: inline-block;
+  color: #0282f9;
+}
+

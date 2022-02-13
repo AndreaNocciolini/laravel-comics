@@ -5,14 +5,16 @@
 @endsection
 
 @section('content')
-    <main class="row">
-        @foreach ($comics as $comic)
-            <div class="col-2">
-                <div style="background-image: url({{$comic['thumb']}}); background-repeat:no-repeat; background-size:cover; width: 13em; height: 13em; background-position-x: center;"></div>
-                <h4>
-                    {{ $comic['title'] }}
-                </h4>
-            </div>
-        @endforeach
+    <main class="bg-dark text-white width-100">
+        <div class="row p-5 my-home-container">
+            @foreach ($comics as $comic)
+                <div class="col-2">
+                    <div class="comic-img" style="background-image: url({{ $comic['thumb'] }});"></div>
+                    <h6>
+                        {{ $comic['title'] }}
+                    </h6>
+                </div>
+            @endforeach
+        </div>
     </main>
 @endsection

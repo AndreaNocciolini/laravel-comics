@@ -12179,6 +12179,7 @@ fieldset:disabled .btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 2em;
 }
 
 .header-ul {
@@ -12199,6 +12200,28 @@ fieldset:disabled .btn {
 .header-ul .header-li .header-a.active {
   color: #005ebd;
   border-bottom: 3px solid #005ebd;
+}
+
+.jumbo {
+  width: 100%;
+  height: 24em;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+}
+
+.my-home-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.comic-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10em;
+  height: 10em;
+  background-position-x: center;
 }
 
 .container-footer {

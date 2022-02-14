@@ -2,7 +2,36 @@
     width: 100%;
 }
 
+.adv {
+    background-image: url(../../img/adv.jpg);
+    width: 10em;
+    height: 10em;
+}
+
 .supp-comic-container{
     width: 80%;
     margin: 0 auto;
+}
+
+.comic-price-container {
+    background-color: green;
+}
+
+.comic-info-container {
+    background-color: lightgray;
+}
+
+.artists,
+.writers,
+.series,
+.price,
+.on-sale-date {
+    border-bottom: 1px solid darkgray;
+}
+
+.artists a,
+.writers a,
+.series a {
+    text-decoration: none;
+    color: blue;
 }

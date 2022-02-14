@@ -12339,3 +12339,26 @@ fieldset:disabled .btn {
   margin: 0 auto;
 }
 
+.comic-price-container {
+  background-color: green;
+}
+
+.comic-info-container {
+  background-color: lightgray;
+}
+
+.artists,
+.writers,
+.series,
+.price,
+.on-sale-date {
+  border-bottom: 1px solid darkgray;
+}
+
+.artists a,
+.writers a,
+.series a {
+  text-decoration: none;
+  color: blue;
+}
+

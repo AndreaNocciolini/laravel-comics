@@ -12330,3 +12330,12 @@ fieldset:disabled .btn {
   color: #0282f9;
 }
 
+.comic-container {
+  width: 100%;
+}
+
+.supp-comic-container {
+  width: 80%;
+  margin: 0 auto;
+}
+

@@ -6,8 +6,8 @@
 
 @section('content')
 {{-- @dd($product) --}}
-  <div>
-    <div>
+  <div class="comic-container">
+    <div class="supp-comic-container">
         <div>
           <h2>{{ $product['title'] }}</h2>
         </div>

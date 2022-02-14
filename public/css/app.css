@@ -12214,6 +12214,7 @@ fieldset:disabled .btn {
 .my-home-container {
   width: 80%;
   margin: 0 auto;
+  padding: 10em 0;
 }
 
 .comic-img {
@@ -12222,6 +12223,12 @@ fieldset:disabled .btn {
   width: 10em;
   height: 10em;
   background-position-x: center;
+}
+
+.link-home {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 .container-footer {

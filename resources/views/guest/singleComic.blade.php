@@ -6,8 +6,8 @@
 
 @section('content')
     {{-- @dd($product) --}}
-    <div class="comic-container">
-        <div class="supp-comic-container">
+    <div class="comic-container d-flex justify-content-around">
+        <div class="supp-comic-container p-5">
             <div>
                 <h2>{{ $product['title'] }}</h2>
             </div>
@@ -28,7 +28,7 @@
                 {!! $product['description'] !!}
             </div>
         </div>
-        <div class="adv">
+        <div class="adv p-5">
             <h5>Advertisement</h5>
             <img src="{{asset('images/adv.jpg')}}" alt="">
         </div>
